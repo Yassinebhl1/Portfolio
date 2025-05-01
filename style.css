@@ -1,0 +1,108 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header > nav > ul{
+    padding-left: 100px;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style: none;
+
+}
+header > nav > ul > h1{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 150px;
+}
+
+header > nav > ul > li{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+header > nav > ul > li::after{
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.2s ease-in;
+
+}
+
+header > nav > ul > li:hover::after{
+    width: 100%;
+
+}
+
+
+.logo{
+    margin-right: 700px;
+}
+
+.Home{
+    background-color: #332E2E;
+    width: 1895px;
+    height: 909.188px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center;
+}
+
+main > .home > .hp1{
+    margin-bottom: 100px;
+    margin-left: 300px;
+    font-family: "Exo 2", sans-serif;
+}
+main > .home > .hp1 > h1{
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+p{
+    font-size: 20px;
+}
+
+main > .home > .hp2{
+    margin-bottom: 80px;
+    margin-left: 200px;
+    font-family: "Exo 2", sans-serif;
+}
+
+main > .home > .hp2 > h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main > .home > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    font-size: 20px;
+    background-color: #5afd28;
+    padding: 20px 30px;
+    border-radius: 30px;
+    transition: 0.2s ease-in all;
+}
+
+main > .home > a:hover{
+    background-color: #332E2E;
+    border: 1px #5afd28 solid;
+    color: white;
+
+}
+
+
