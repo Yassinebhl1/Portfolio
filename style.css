@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+header > nav > ul > li >a{
+    color: black;
+    text-decoration: none;
+}
 
 header > nav > ul{
     padding-left: 100px;
@@ -92,7 +96,7 @@ main > .home > a{
     font-family: "Montserrat", sans-serif;
     font-weight: 800px;
     font-size: 20px;
-    background-color: #5afd28;
+    background-color: #8bff67;
     padding: 20px 30px;
     border-radius: 30px;
     transition: 0.2s ease-in all;
@@ -105,4 +109,8 @@ main > .home > a:hover{
 
 }
 
-
+main .About{
+    background-color: #8bff67;
+    width: 1895px;
+    height: 800px;
+}
