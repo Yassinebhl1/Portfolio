@@ -114,3 +114,13 @@ main .About{
     width: 1895px;
     height: 800px;
 }
+
+main .About .line{
+    background-color: black;
+    width: 8px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -800px;
+    left: 700px;
+}
