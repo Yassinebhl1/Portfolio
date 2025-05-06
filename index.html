@@ -1,54 +1,86 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <h1 class="logo">LOGO</h1>
-                <li id="Home">Home</li>
-                <li><a href="About">About</a></li>
-                <li id="Contact-me">Contact-me</li>
-                <li id="none">none</li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <h1 class="logo">LOGO</h1>
+          <li id="Home">Home</li>
+          <li><a href="#About">About</a></li>
+          <li id="Skills">none</li>
+          <li id="Contact-me">Contact-me</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="Home">
-            <div class="hp1">
-                <h1>Web Devlopper & <br>
-                    Graphic Designer
-                </h1>
-                <p>Hi, I’m Yassine Bouhalla. I’m a Web Devlopper and A Graphic Designer specialising in digital accessibility.</p>
-            </div>
+      <section class="Home">
+        <div class="hp1">
+          <h1>
+            Web Devlopper & <br />
+            Graphic Designer
+          </h1>
+          <p>
+            Hi, I’m Yassine Bouhalla. I’m a Web Devlopper and A Graphic Designer
+            specialising in digital accessibility.
+          </p>
+        </div>
 
-            <div class="hp2">
-                <h2>Location</h2>
-                <p>Morocco</p>
-            </div>
+        <div class="hp2">
+          <h2>Location</h2>
+          <p>Morocco</p>
+        </div>
 
-            <a href="About">About me ></a>
+        <a id="About" href="#About">About me ></a>
+    
+      </section>
 
-            <img src="" alt="">
+      <section id="About" class="About">
+        <div class="line"></div>
+        <img src="/img/multimeia.png" alt="" />
+      </section>
 
-        </section>
-        <section href="About" class="About">
-            <div class="line">
+      <!-- Skills Section -->
 
-            </div>
+      <section id="Skills" class="Skills">
 
-
-        </section>     
+        <h1 class="section-title" data-aos="fade-up">My Skills</h1>
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="flip-left">
+            <i class="fas fa-code skill-icon"></i>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+            <i class="fas fa-camera skill-icon"></i>
+            <h3>Photography</h3>
+            <p>Digital & Video</p>
+          </div>
+          <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+            <i class="fas fa-paint-brush skill-icon"></i>
+            <h3>Design</h3>
+            <p>UI/UX & Graphics</p>
+          </div>
+          <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+            <i class="fas fa-video skill-icon"></i>
+            <h3>Video Editing</h3>
+            <p>Motion Graphics</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
